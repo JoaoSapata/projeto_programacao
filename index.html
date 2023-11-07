@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Moedas</title>
+    <link rel="stylesheet" href = "estilo/style.css">
+</head>
+<body>
+    <h1>Conversor de Moedas</h1>
+    <form id="conversorMoedas">
+        <label for = "moedaOrigem">Moeda de Origem</label>
+        <select id = "moedaOrigem" required>
+            <option value="" disabled selected>Selecione...</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+        </select>
+        <label for = "moedaDestino">Moeda de Destino</label>
+        <select id = "moedaDestino" required>
+            <option value="" disabled selected>Selecione...</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+        </select>
+        <label for="valor">Valor à ser convertido:</label>
+        <input type="number" id="valor" step="0.01" placeholder="Ex: 399,99">
+        <button id="botaoCalcular" onclick="calculaConversao()">Calcular</button>
+
+        <p id="resultado"></p>
+    </form>
+    <script src = "conversao.js"></script>
+</body>
+</html>
