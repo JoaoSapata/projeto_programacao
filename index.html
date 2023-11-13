@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="IMG/aperto-de-mao.png" type="image/x-icon">
 </head>
 <body>
+<div class="conversao">
     <h1>Conversor de Moedas</h1>
     <form id="conversorMoedas">
         <label for = "moedaOrigem">Moeda de Origem</label>
@@ -29,10 +30,10 @@
         </select>
         <label for="valor">Valor à ser convertido:</label>
         <input type="number" id="valor" step="0.01" placeholder="Ex: 399,99">
-        <button id="botaoCalcular" onclick="calculaConversao()">Calcular</button>
-<!--Aqui adicionamos um botao e para ajudar o usuario um placeholder-->
+        <button id="botaoCalcular" onclick="calculaConversao()">Calcular</button> <!--Aqui adicionamos um botao e para ajudar o usuario um placeholder-->
         <p id="resultado"></p>
     </form>
+</div>
     <script src = "conversao.js"></script>
 </body>
 </html>

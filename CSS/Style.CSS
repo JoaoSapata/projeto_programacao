@@ -1,13 +1,31 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 
+ /* Paleta de cores utilizada #0807a7 #000081 #0c0bb9 */
+
  body{
     font-family: 'Lato', sans-serif;
-    background: #eef4ed;
+    background: #000081 ;
     margin: 0;
     padding: 0;
-    display: block;
+    display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
   }
+
+ .conversao {
+  height: 550px;
+  width: 400px;
+  background-color: #fffcff;
+  display: block;
+  padding-left: 30px;
+  border-radius: 10px;
+  outline: 40px ;
+ }
+
+ h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+ }
