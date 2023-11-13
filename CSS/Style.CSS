@@ -1,13 +1,25 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 
+    /* Paleta de cores site #2f6bc3 #004a9d #eef4ed */
+
  body{
-    font-family: 'Lato', sans-serif;
-    background: #eef4ed;
-    margin: 0;
-    padding: 0;
-    display: block;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background: #eef4ed;
+  margin: 0;
+  padding: 0;
+  display: block;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   }
+
+#cabecalho {
+ background-color: #004a9d ;
+ font-display: white;
+ align-content: flex-start;
+}
+
+form {
+  background-color: #2f6bc3;
+}
