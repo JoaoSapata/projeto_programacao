@@ -1,25 +1,33 @@
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 
-    /* Paleta de cores site #2f6bc3 #004a9d #eef4ed */
+/* Paleta de cores utilizada #0807a7 #000081 #0c0bb9 */
 
- body{
-  font-family: 'Lato', sans-serif;
-  background: #eef4ed;
-  margin: 0;
-  padding: 0;
-  display: block;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  }
+body{
+   font-family: 'Lato', sans-serif;
+   background: #000081 ;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+ }
 
-#cabecalho {
- background-color: #004a9d ;
- font-display: white;
- align-content: flex-start;
+.conversao {
+ flex-direction: column;
+ height: 550px;
+ width: 400px;
+ background-color: #fffcff;
+ display: block;
+ padding-left: 30px;
+ border-radius: 10px;
+ outline: 40px ;
 }
 
-form {
-  background-color: #2f6bc3;
+h1 {
+ display: block;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-left: 20px;
 }
