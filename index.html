@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversão de Moedas</title>
     <link rel="stylesheet" href="CSS/Style.CSS">
-    <link rel="shortcut icon" href="IMG/aperto-de-mao.png" type="image/x-icon">
+    <link rel="shortcut icon" href="IMG/aperto-de-mao.png" type="image/x-icon"> <!--Define imagem logo do site-->
 </head>
 <body>
 <div id="conversao" class="conversao">
-    <div id="header">
+    <div id="cabecalho">
     <img src="/IMG/aperto-de-mao.png" id="img1">
-    <h1> <strong>     Conversor de Moedas </strong></h1>
+    <h1> <strong> Conversor de Moedas </strong></h1>
     </div>
     <form id="conversorMoedas">
         <label for = "moedaOrigem">Moeda de Origem</label>
@@ -33,7 +33,7 @@
         </select>
         <label for="valor">Valor à ser convertido:</label>
         <input type="number" class="input" id="valor" step="0.01" placeholder="Ex: 399,99">
-        <button id="botaoCalcular" onclick="calculaConversao()">Calcular</button> <!--Aqui adicionamos um botao e para ajudar o usuario um placeholder-->
+        <button id="botaoCalcular" onclick="calculaConversao()"> Calcular</button> <!--Aqui adicionamos um botao e para ajudar o usuario um placeholder-->
         <p id="resultado"></p>
     </form>
 </div>
