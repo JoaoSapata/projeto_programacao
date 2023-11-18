@@ -5,6 +5,7 @@
 body{
    font-family: 'Lato', sans-serif;
    background: #000081 ;
+   background-size: cover; /*Ajusta background para preencher monitor*/
    margin: 0;
    padding: 0;
    display: flex;
@@ -14,20 +15,65 @@ body{
    min-height: 100vh;
  }
 
-.conversao {
- flex-direction: column;
- height: 550px;
- width: 400px;
+#conversao {
+ padding: 5px 20px 5px 20px;
+ font-size: 20px;
+ height: 650px;
+ width: 500px;
  background-color: #fffcff;
- display: block;
- padding-left: 30px;
+ display: flex;
+ flex-direction: column;
  border-radius: 10px;
  outline: 40px ;
 }
 
+#conversorMoedas {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  margin: 16px 8px 20px 8px;
+  box-sizing: border-box;
+}
+
+.input {
+  font-size: 15px;
+  margin: 15px;
+  border: 2px solid #0c0bb8;
+  border-radius: 4px;
+}
+
+#botaoCalcular{
+  border: 2px solid #489c90;
+  background-color: #489c79;
+  color: #fffcff;
+  font-size: 19px;
+}
+
+.input:focus{
+  margin: 15px;
+  border: 2px solid #11112e;
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px 10px 20px;
+}
+
 h1 {
- display: block;
- padding-left: 20px;
- padding-right: 20px;
+ font-size: 40px;
  margin-left: 20px;
+}
+
+#img1 {
+  width: 40px;
+  height: 40px;
+  float: inline-start;
+}
+
+#resultado{
+ 
 }

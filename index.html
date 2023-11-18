@@ -9,11 +9,14 @@
     <link rel="shortcut icon" href="IMG/aperto-de-mao.png" type="image/x-icon">
 </head>
 <body>
-<div class="conversao">
-    <h1> <img src="/IMG/aperto-de-mao.png" style="float: left;width: 35px;height: 38px;"><strong>     Conversor de Moedas </strong></h1>
+<div id="conversao" class="conversao">
+    <div id="header">
+    <img src="/IMG/aperto-de-mao.png" id="img1">
+    <h1> <strong>     Conversor de Moedas </strong></h1>
+    </div>
     <form id="conversorMoedas">
         <label for = "moedaOrigem">Moeda de Origem</label>
-        <select id = "moedaOrigem" required>
+        <select class="input" id = "moedaOrigem" required>
             <option value="" disabled selected>Selecione...</option>
             <option value="BRL">Real Brasileiro (BRL)</option>
             <option value="USD">Dólar Americano (USD)</option>
@@ -21,7 +24,7 @@
             <option value="GBP">Libra Esterlina (GBP)</option> <!--Nesta parte definimos as opcoes da moeda inicial para converter-->
         </select>
         <label for = "moedaDestino">Moeda de Destino</label>
-        <select id = "moedaDestino" required>
+        <select class="input" id = "moedaDestino" required>
             <option value="" disabled selected>Selecione...</option>
             <option value="BRL">Real Brasileiro (BRL)</option>
             <option value="USD">Dólar Americano (USD)</option>
@@ -29,7 +32,7 @@
             <option value="GBP">Libra Esterlina (GBP)</option> <!--Ja nesta seria para qual moeda ele quer converter-->
         </select>
         <label for="valor">Valor à ser convertido:</label>
-        <input type="number" id="valor" step="0.01" placeholder="Ex: 399,99">
+        <input type="number" class="input" id="valor" step="0.01" placeholder="Ex: 399,99">
         <button id="botaoCalcular" onclick="calculaConversao()">Calcular</button> <!--Aqui adicionamos um botao e para ajudar o usuario um placeholder-->
         <p id="resultado"></p>
     </form>
